@@ -1,10 +1,11 @@
-import { Hero, Navbar } from "./components";
+import { Hero, Hightlights, Navbar } from "./components";
 
 function App() {
     return (
         <>
             <Navbar />
             <Hero />
+            <Hightlights/>
         </>
     );
 }
