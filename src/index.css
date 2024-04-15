@@ -20,14 +20,18 @@ body {
     user-select: none;
 }
 
-.screen-max-width{
+.screen-max-width {
     @apply max-w-[1120px] mx-auto;
 }
 
-.common-padding{
+.common-padding {
     @apply sm:px-10 px-5 sm:py-32 py-20;
 }
 
-.section-heading{
+.section-heading {
     @apply text-gray lg:text-6xl md:text-5xl text-3xl font-medium;
+}
+
+.feature-text {
+    @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0;
 }
